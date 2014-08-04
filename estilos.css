@@ -1,4 +1,4 @@
-a
+ a
 {
 	color: #22BCE0;
 }
@@ -10,10 +10,10 @@ body
 }
 footer
 {
-	color: rgba(255,255,255,0.7);
 	background: #22BCE0;
-	text-align: center;
+	color: rgba(255,255,255,0.7);
 	padding: 1em;
+	text-align: center;
 }
 footer p:first-child
 {
@@ -33,11 +33,11 @@ footer p:last-child:before
 }
 header
 {
-	border: 1px solid red;
     background: #343B54;
     color: white;
     overflow: hidden;
     padding: 0.5em;
+    position: relative;
 }
 header figure
 {
@@ -45,9 +45,9 @@ header figure
 }
 header h1
 {
-	font-size: 1.2em;
+	font-size: 1.7em;
 	font-weight: normal;
-	margin: 0.2em 70px 0 0;
+	margin: 0 70px 0 0;
 }
 header #avatar
 {
@@ -71,20 +71,30 @@ header #logo img
 nav
 {
 	background: #80BCA3;
-	padding: 0 0.5em;
 	position: relative;
 }
 nav ul
 {
 	list-style: none;
 	margin: 0;
-	padding: 0 0.5em;
+	padding: 0;
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 0 0.5em 0 0;
+}
+nav ul li a 
+{
+	color:white;
+	display: block;
+	padding: 0.5em;
 }
 nav ul #publicar_nav
 {
 	position: absolute;
-	top: -0.3em;
 	right: 0;
+	top: -0.1em;
 }
 nav ul #publicar_nav a
 {
@@ -92,20 +102,9 @@ nav ul #publicar_nav a
 	border-radius: 5px;
 	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
     font-style: italic;
-	padding: 0.8em 0.5em;
+	padding: 0.6em 0.8em;
 	text-decoration: none;
     text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
-}
-nav ul li
-{
-	display: inline-block;
-	margin: 0 1em 0 0;
-}
-nav ul li a 
-{
-	color:white;
-	display: block;
-	padding: 0.5em 0;
 }
 #contenido 
 {
@@ -126,25 +125,25 @@ nav ul li a
 #contenido .item .datos_item
 {
 	margin: 1em 1em 0 0;
-	text-align: right;
 }
 #contenido .item .datos_item .fecha_item
 {
 	color: #AAA;
+	float: right;
 }
 #contenido .item .datos_item .tag_item
 {
 	background: #F4502A;
 	border-radius: 0.5em;
 	color:white;
-	float:left;
-	display: 0.2em 0.5em;
+	display: inline-block;
+	padding: 0.2em 0.5em;
 	text-decoration: none;
 }
 #contenido .item .imagen_item 
 {
 	float: left;
-	margin: 0 1em 0 0;
+	margin-right: 1em;
 }
 #contenido .item .imagen_item img
 {
@@ -154,6 +153,7 @@ nav ul li a
 {
 	font-size: 1.2em;
 	font-style: italic;
+	margin-bottom: 0;
 	padding-top: 1em 1em 0 0;
 }
 #contenido .item .titulo_item a
@@ -165,10 +165,11 @@ nav ul li a
 {
     background: white;
     border-radius: 0 0 0.5em 0.5em
-    left: 5%;
+    left: 3%;
     margin-top: 3px;
-    padding: 0.2em 0.5em;
+    padding: 0.5em 1em;
     position: absolute;
+    right: 3%;
     top: 100%;
     width: 90%;
 }
@@ -177,6 +178,15 @@ nav ul li a
 {
 	float: right;
 }
+
+
+
+
+
+
+
+
+
 
 
 

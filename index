@@ -10,13 +10,13 @@
 <body>
 	<header>
 		<figure id="logo"> 
-			<img src="fotoparapintar.jpg"/>
+			<img src="logo.png"/>
 		</figure>
 		<h1>
             Pulse 2014 
 		</h1>
 		<figure id="avatar">
-			<img src="ali.jpg"/>
+			<img src="avatar.jpg"/>
 		</figure>
 	</header>
     <nav>
@@ -34,7 +34,7 @@
     <section id="contenido">
     	<article class="item">
     		<figure class="image_item">
-    			<img src="ali.jpg"/>
+    			<img src="imagen.jpg"/>
     	    <figure/>
     	    <h2 class="título_item">
     	    	<a href="#">
@@ -42,12 +42,12 @@
     	        </a>
     	    </h2>
     	    <div class="autor_item">
-    	    	por <a href="#"> Ali Moyano</a>
+               "por"<a href="#"> Ali Moyano</a>
     	    </div>
     	    <div class="datos_item">
     	    	<a href="#" class="tag_item">pony</a>
-    	    	<span> Hace <strong>5</strong> min
-    	    	</span>
+    	    	<span class="fecha_item">
+                hace <strong>5</strong> min </span>
     	    	<a href="#" class="comentarios_item">69</a>
     	    	<a href="#" class="guardar_item"></a>
     	    </div>
